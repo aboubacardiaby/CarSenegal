@@ -7,6 +7,11 @@ trigger:
 
 resources:
 - repo: self
+ # Agent VM image name
+pool:
+  name: carpool1
+  demands:
+   - agent.name -equals carpool1
 
 variables:
   # Container registry service connection established during pipeline creation
