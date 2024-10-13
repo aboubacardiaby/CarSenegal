@@ -3,20 +3,22 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-- master
+- main
 
 resources:
 - repo: self
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'domfinregistry'
+  dockerRegistryServiceConnection: 'fe265ed2-7e49-4e01-8bea-ff507bb0950a'
   imageRepository: 'aboubacardiabycarsenegal'
   containerRegistry: 'domfinregistry.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/CarSenegalBakend.Api/Dockerfile'
   tag: '$(Build.BuildId)'
 
- 
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
+
 stages:
 - stage: Build
   displayName: Build and push stage
@@ -24,10 +26,11 @@ stages:
   - job: Build
     displayName: Build
     pool:
-       name: carpool1
-       demands:
-       - agent.name -equals carpool1
-
+    
+     name: carpool1
+     demands:
+      - agent.name -equals carpool1
+    
     steps:
     - task: Docker@2
       displayName: Build and push an image to container registry
@@ -38,8 +41,3 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: AzureWebAppContainer@1
-      inputs:
-        azureSubscription: 'legacyConnection'
-        appName: 'carsenegalweb'
-        containers: $(containerRegistry)/$(imageRepository):$(Build.BuildId)
