@@ -1,0 +1,7 @@
+.vs
+/CarSenegalBackend.Infrastruture/bin/Debug/net8.0
+/CarSenegal.UnitTests/bin/Debug/net8.0
+/CarSenegal.UnitTests/obj
+/CarSenegalBackend.Infrastruture/obj
+/CarSenegalBakend.Api/bin/Debug/net8.0
+/CarSenegalBakend.Domain/bin/Debug/net8.0
