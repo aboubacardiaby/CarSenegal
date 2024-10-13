@@ -11,9 +11,9 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'domfinregistry'
-  imageRepository: 'aboubacardiabywireservice'
+  imageRepository: 'aboubacardiabycarsenegal'
   containerRegistry: 'domfinregistry.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/CarSenegalBakend.Api/Dockerfile'
   tag: '$(Build.BuildId)'
 
  
