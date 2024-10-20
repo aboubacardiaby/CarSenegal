@@ -17,4 +17,10 @@
     <ProjectReference Include="..\CarSenegalBackend.Infrastruture\CarSenegalBackend.Infrastruture.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="certificates\aspnetapp.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

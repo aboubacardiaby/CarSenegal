@@ -24,4 +24,6 @@ RUN dotnet publish "./CarSenegalBakend.Api.csproj" -c $BUILD_CONFIGURATION -o /a
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+Run mkdir -p /app/certificates
+COPY CarSenegalBakend.Api/certificates/aspnetapp.pfx  /app/certificates/
 ENTRYPOINT ["dotnet", "CarSenegalBakend.Api.dll"]
