@@ -147,3 +147,4 @@ C:\Users\aboub\source\repos\carsenegal\CarSenegalBakend.Api\obj\Debug\net8.0\ref
 C:\Users\aboub\source\repos\carsenegal\CarSenegalBakend.Api\obj\Debug\net8.0\CarSenegalBakend.Api.pdb
 C:\Users\aboub\source\repos\carsenegal\CarSenegalBakend.Api\obj\Debug\net8.0\CarSenegalBakend.Api.genruntimeconfig.cache
 C:\Users\aboub\source\repos\carsenegal\CarSenegalBakend.Api\obj\Debug\net8.0\ref\CarSenegalBakend.Api.dll
+C:\Users\aboub\source\repos\carsenegal\CarSenegalBakend.Api\bin\Debug\net8.0\certificates\aspnetapp.pfx

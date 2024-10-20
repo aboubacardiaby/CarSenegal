@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarSenegalBackend.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f3f52c206a3365d0a74d006ac7c6f4001bd4090")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64b9648ca9c32f0b039e46d4debe20f2c2bf943c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarSenegalBackend.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarSenegalBackend.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

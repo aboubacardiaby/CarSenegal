@@ -13,9 +13,9 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("155d7ba3-b975-4637-901c-1889b88d8fc5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarSenegalBakend.Api")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0d27cca11292cc05cf54724f7a10f064ed2a940")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eb81953240cd69fbd215f358f499eee1a990591")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarSenegalBakend.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarSenegalBakend.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
