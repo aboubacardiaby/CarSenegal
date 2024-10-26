@@ -10,17 +10,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1B60957-64E1-47C3-99EB-3E0642C92FC7}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSenegalBackend.Application", "CarSenegalBackend.Application\CarSenegalBackend.Application.csproj", "{F422E5F8-3BA3-4EF1-B3CE-9E146C126204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSenegalBackend.Application", "CarSenegalBackend.Application\CarSenegalBackend.Application.csproj", "{F422E5F8-3BA3-4EF1-B3CE-9E146C126204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSenegalBackend.Infrastruture", "CarSenegalBackend.Infrastruture\CarSenegalBackend.Infrastruture.csproj", "{6475D529-3F58-4E6B-8FB5-BCBAE720DD16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSenegalBackend.Infrastruture", "CarSenegalBackend.Infrastruture\CarSenegalBackend.Infrastruture.csproj", "{6475D529-3F58-4E6B-8FB5-BCBAE720DD16}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC3B2C7A-91F1-48B3-AC3A-0EEE1D19B7C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B35BB1CF-A4B8-44E7-91A8-CF31C466E7BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSenegal.UnitTests", "CarSenegal.UnitTests\CarSenegal.UnitTests.csproj", "{532B4ABB-BEE4-4A7A-B4E4-6C3F424CFF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSenegal.UnitTests", "CarSenegal.UnitTests\CarSenegal.UnitTests.csproj", "{532B4ABB-BEE4-4A7A-B4E4-6C3F424CFF9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
