@@ -1,17 +1,26 @@
-name: worker
+name: Build .NET 8 Solution
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  say-hello:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Print Hello World
-        run: echo "Hello, world!"
+      - name: Setup .NET 8 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore dependencies
+        run: dotnet restore CarSenegalBakend.sln
+
+      - name: Build solution
+        run: dotnet build CarSenegalBakend.sln --configuration Release --no-restore
